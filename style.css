@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  background-color: antiquewhite;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+a#a1 {
+  display: inline-block;
+  height: 40px;
+  
+  }
+
+.nav {
+  position: fixed;
+  background-color: rgb(160, 64, 0);
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+  background-color: rgb(233, 192, 138);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+  color: #000;
+}
+
+.nav.active .container {
+  padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: #050505;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('https://ts1.cn.mm.bing.net/th/id/R-C.800b11caa67a4c94948fbb7e4f6d1239?rik=RkqzpK%2b75UA3dA&riu=http%3a%2f%2fimg95.699pic.com%2fphoto%2f50132%2f0508.jpg_wh300.jpg!%2ffh%2f300%2fquality%2f90&ehk=Sj2HiQKTby1K%2fCAZ2RcpizVfzX7Tqz3HD4m4Xv3WgSY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+.hero1 {
+  background-image: url('https://designjiaoshi.com/wp-content/uploads/2020/11/06104520582.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+.hero2 {
+  background-image: url('https://b.zol-img.com.cn/soft/6/607/ce0khU5bxmZ2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+.hero3 {
+  background-image: url('https://images7.alphacoders.com/108/1083331.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+.hero4 {
+  background-image: url('https://www.stockland.com.au/~/media/shopping-centre/common/stockland-baringa/stores/sg-bakery/bakery-1920x1080.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+
+.hero5 {
+  background-image: url('https://gwangjunewsgic.com/wp-content/uploads/2018/07/AT_OURBakery_Review2018070709-1024x683.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.hero h1 {
+  font-size: 46px;
+  margin: -20px 0 20px;
+  
+}
+
+.hero1 h1 {
+  font-size: 60px;
+  margin: -20px 0 20px;
+  color: rgb(54, 4, 4);
+}
+
+.hero2 h1 {
+  font-size: 60px;
+  margin: -20px 0 20px;
+  color: rgb(255, 255, 255);
+}
+
+.hero3 h1 {
+  font-size: 60px;
+  margin: -20px 0 20px;
+  color: rgb(255, 255, 255);
+}
+
+.hero4 h1 {
+  font-size: 60px;
+  margin: -20px 0 20px;
+  color: rgb(255, 255, 255);
+}
+
+.hero5 h1 {
+  font-size: 60px;
+  margin: -20px 0 20px;
+  color: rgb(255, 255, 255);
+}
+
+.hero p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.hero1 p {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0);
+}
+
+.content h2,
+.content h3 {
+  font-size: 150%;
+  margin: 20px 0;
+  background-color: aqua;
+}
+
+.content p {
+  color: #555;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+
+
+
+
+  
+.footer {
+  background: #FF6067;
+  color: white;
+  padding: 0.9375em;
+  text-align: center;
+  font-size: 0.8125em;
+  position: relative;
+  bottom: -100px;
+
+}
+.footer a {
+  color: #F7EE1A;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+
+.footer2 {  
+  position: fixed;  
+  left: 10px;  
+  bottom: 5px;  
+  right: 10px;   
+  width: 100%;  
+  background-color: rgb(250, 66, 66);  
+  color: rgb(0, 0, 0);  
+  text-align: center;
+font-size:20px;
+font-style:italic;  
+height: 20px;
+  }  
